@@ -1,3 +1,7 @@
+# cargo clippy --all --all-targets --all-features
+# cargo +nightly fmt --all
+# cargo sort -gw
+
 # Convert /* */ comments to // comments where possible
 #
 # Default value: false

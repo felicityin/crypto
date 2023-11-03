@@ -233,7 +233,7 @@ pub fn hex_dsha256(hex: &str) -> String {
 }
 
 pub fn dsha256(bytes: &[u8]) -> Vec<u8> {
-    Sha256::digest(&Sha256::digest(bytes)).to_vec()
+    Sha256::digest(bytes).to_vec()
 }
 
 #[cfg(test)]
