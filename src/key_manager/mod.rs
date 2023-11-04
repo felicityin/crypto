@@ -8,8 +8,8 @@ use rocksdb::DB as RocksDB;
 use serde_json::Value;
 use tiny_hderive::bip32::ExtendedPrivKey;
 
-use crate::kdf::{Crypto, EncPair, KdfParams, Key, Pbkdf2Params, SCryptParams};
 use crate::error::{Error, Result};
+use crate::kdf::{Crypto, EncPair, KdfParams, Key, Pbkdf2Params, SCryptParams};
 use crate::key_manager::wallet_meta::WalletMeta;
 
 pub struct KeyManager {

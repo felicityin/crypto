@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
-use crate::kdf::{Crypto, EncPair, KdfParams, Pbkdf2Params, SCryptParams};
 use crate::error::{Error, Result};
+use crate::kdf::{Crypto, EncPair, KdfParams, Pbkdf2Params, SCryptParams};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum WalletMeta {
