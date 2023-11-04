@@ -114,7 +114,7 @@ pub fn pow(v: FieldElement, k: FieldElement) -> FieldElement {
             result *= &muled;
         }
         // Square
-        muled = muled * muled;
+        muled *= muled;
     }
 
     result

@@ -1,0 +1,38 @@
+{
+    "id": "477798a0-1e08-40f2-a581-910e0f402e00",
+    "version": 3,
+    "crypto": {
+      "ciphertext": "008b7ec59042e19e09ede8758e53293afdc4dbcb3b1575e2452c25206aa3efc2",
+      "mac": "085e95bd7c7b3045a0c8ca9d71ba03be7d0438cdae30b17779e3af0946554919",
+      "cipher": "aes-128-ctr",
+      "cipherparams": {
+        "iv": "bff92d98914a498a7a1f5adfe81ec1c6"
+      },
+      "kdf": "scrypt",
+      "kdfparams": {
+        "dklen": 32,
+        "n": 8192,
+        "p": 1,
+        "r": 8,
+        "salt": "454a13723d41213de95af4135179fdc859517726c2be40752569e2c932557cc8"
+      }
+    },
+    "address": "6031564e7b2f5cc33737807b2e58daff870b590b",
+    "encMnemonic": {
+      "encStr": "d85ed1aea3fb51f9f6268dab0fac2c50c2a5a59f70faf9c4cd796515d651d3199bd5887e3cc46cd1926b1be3098d305a936d9d8cb22f678f2ea5506845046c5835e732820604ea695343",
+      "nonce": "a01e1f8dc13e5ebfebb3bbc067983c4c"
+    },
+    "mnemonicPath": "m/44'/60'/0'/0/0",
+    "tokenMeta": {
+      "name": "V3MnemonicKeystore",
+      "passwordHint": null,
+      "chainType": "ETHEREUM",
+      "timestamp": 1689122691,
+      "network": null,
+      "backup": [],
+      "source": "MNEMONIC",
+      "mode": "NORMAL",
+      "walletType": "V3",
+      "segWit": null
+    }
+}

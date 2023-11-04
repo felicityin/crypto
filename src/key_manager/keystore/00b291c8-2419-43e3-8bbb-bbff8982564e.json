@@ -1,0 +1,42 @@
+{
+    "id": "00b291c8-2419-43e3-8bbb-bbff8982564e",
+    "version": 44,
+    "crypto": {
+      "ciphertext": "d9b74342e4aefbe0e07dcb948b11099964f069cba69fdab32fcc08a14b25ce141b49dfc97924e9e2906242bb96e259017fcf783e7316c869136606ebea6b4dd66a7c9a6c27a12379dcd9e33979e085ad6be52b43ab98a0e809e40a0837a2535af4d3c511dba130ed2ea7e6366344c8",
+      "mac": "58f2693a549e5728ee076762f15b514bd5f831529cc955433faf1bbf5924b0ac",
+      "cipher": "aes-128-ctr",
+      "cipherparams": {
+        "iv": "c065d4ad065e0ce8e7239b275b4fad7c"
+      },
+      "kdf": "pbkdf2",
+      "kdfparams": {
+        "dklen": 32,
+        "c": 10240,
+        "prf": "hmac-sha256",
+        "salt": "12349ed251de531b4fa971e33c0aed270911872c3032546194fa20595290d974"
+      }
+    },
+    "address": "12z6UzsA3tjpaeuvA2Zr9jwx19Azz74D6g",
+    "encMnemonic": {
+      "encStr": "9ced11e88a971a5f690a6b4fc03cd40ccae5aef4cebee17e94f9dc3489d80d4a19f5980975b2a50ed242ae5260ad92852f46188cfbb08b9838e80e2eb0632dae956add53967b245e2edd",
+      "nonce": "19fde002b989ff9171a93a204cde9cee"
+    },
+    "mnemonicPath": "m/44'/0'/0'",
+    "xpub": "xpub6CqzLtyKdJN53jPY13W6GdyB8ZGWuFZuBPU4Xh9DXm6Q1cULVLtsyfXSjx4G77rNdCRBgi83LByaWxjtDaZfLAKT6vFUq3EhPtNwTpJigx8",
+    "info": {
+      "curve": "spec256k1",
+      "purpuse": "sign"
+    },
+    "tokenMeta": {
+      "name": "HDMnemonicKeystore",
+      "passwordHint": null,
+      "chainType": "BITCOIN",
+      "timestamp": 1689122458,
+      "network": "MAINNET",
+      "backup": [],
+      "source": "MNEMONIC",
+      "mode": "NORMAL",
+      "walletType": "HD",
+      "segWit": "NONE"
+    }
+}
